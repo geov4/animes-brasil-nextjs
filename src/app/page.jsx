@@ -10,9 +10,9 @@ export default function Home() {
       <Header /> {/* ✅ adiciona o cabeçalho fixo */}
       <Container>
         <Content>
-          <Title>Página dedicada a fãs de animes! 🎌</Title>
+          <Title>Site para empresas de TI! </Title>
           <Subtitle>
-            Explore, descubra e compartilhe seus animes favoritos.
+            Explore os compartilhados, descubra e aumente seus conhecimentos.
           </Subtitle>
 
           {/* <ButtonWrapper>
@@ -32,8 +32,8 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #5a76a4, #240045);
-  color: white;
+  background: linear-gradient(135deg, #000e33ff, #2f749cff);
+  color: #caf0ffff;
   text-align: center;
   padding-top: 4rem; /* 🔹 espaço para o header fixo */
 `;
